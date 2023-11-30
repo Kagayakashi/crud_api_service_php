@@ -1,9 +1,9 @@
 # CRUD API service
 This is JSON API. You can create, read, update, delete products there.
 
-##Create data
+## Create data
 http://example.com/api/create
-###Request
+### Request
 ```
 {
     "product": "ProductName",
@@ -12,7 +12,7 @@ http://example.com/api/create
     "dealer": "ProductDealer"
 }
 ```
-###Response
+### Response
 ```
 {
     "status": 1,
@@ -20,10 +20,10 @@ http://example.com/api/create
 }
 ```
 
-##Read data
+## Read data
 http://example.com/api/read/{id}
-###Request body is empty.
-###Response
+### Request body is empty.
+### Response
 ```
 {
     "status":  1,
@@ -39,9 +39,9 @@ http://example.com/api/read/{id}
 }
 ```
 
-###Update data
+### Update data
 http://example.com/api/update/{id}
-###Request
+### Request
 ```
 {
     "product": "ProductName",
@@ -50,17 +50,17 @@ http://example.com/api/update/{id}
     "dealer": "ProductDealer"
 }
 ```
-###Response
+### Response
 ```
 {
     "status": 1
 }
 ```
 
-###Delete data
+### Delete data
 http://example.com/api/delete/{id}
-###Request body is empty.
-###Reponse
+### Request body is empty.
+### Reponse
 ```
 {
     "status": 1
